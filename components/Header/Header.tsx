@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full fixed top-0 py-8.75 z-100 bg-white md:py-16">
+      <header className="w-full sticky top-0 py-8.75 z-100 bg-white md:py-16">
         <div className="w-[87.2%] mx-auto flex items-center justify-between md:w-[89.6%] xl:w-[77.08%]">
           <Brand color="#333136" />
           <div>
