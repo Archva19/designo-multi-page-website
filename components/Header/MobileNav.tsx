@@ -9,7 +9,7 @@ export default function MobileNav({ isOpen }: { isOpen: boolean }) {
             <nav
               className="flex flex-col gap-8 text-white text-[24px] leading-6.25 tracking-[2px]"
             >
-              <Link href="/Company">OUR COMPANY</Link>
+              <Link href="/About">OUR COMPANY</Link>
               <Link href="/Locations">LOCATIONS</Link>
               <Link href="/Contact">CONTACT</Link>
             </nav>
