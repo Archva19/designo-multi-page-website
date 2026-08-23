@@ -1,10 +1,14 @@
 import Banner from "./Banner";
+import Projects from "./Projects";
 
 export default function Main() {
   return (
     <>
-      <main className = "w-full mx-auto md:w-[89.6%] xl:w-[77.08%]">
+      <main className="w-full">
         <Banner />
+        <div className="w-[87.2%] mx-auto md:w-[89.713%] xl:w-[77.222%]">
+          <Projects />
+        </div>
       </main>
     </>
   );
