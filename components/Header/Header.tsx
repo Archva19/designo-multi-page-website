@@ -1,8 +1,8 @@
 "use client";
 
-import Brand from "../Models/Brand";
+import Brand from "../Models/Header-Footer/Brand";
 import SandwichMenu from "./SandwichMenu";
-import Navigation from "../Models/Navigation";
+import Navigation from "../Models/Header-Footer/Navigation";
 import { useEffect, useState } from "react";
 import MobileNav from "./MobileNav";
 

@@ -1,8 +1,8 @@
 import getProjectsByIds from "@/utils/getProjects";
-import ProjectsSectionModel from "../Models/ProjectsSectionModel";
+import ProjectsSectionModel from "../Models/Projects/ProjectsSectionModel";
 
 export default function Projects() {
-  const projects = getProjectsByIds([1,2,3])
+  const projects = getProjectsByIds([1, 2, 3]);
 
   return (
     <>
