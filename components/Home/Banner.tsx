@@ -15,7 +15,24 @@ export default function Banner() {
             Learn More
           </button>
         </div>
-        <div className="bg-[url('/images/Home/Mobile/mobileImgMobile.png')] md:bg-[url('/images/Home/Tablet/mobileImgTablet.png')] xl:bg-[url('/images/Home/Desktop/mobileImgDesktop.png')] w-71 h-92.75 bg-no-repeat bg-cover bg-center md:h-97 xl:h-125.25"></div>
+        <div className="w-71">
+          <picture className = "drop-shadow-[20px_-40px_80px_rgba(93,2,2,0.8)]">
+            <source
+              media="(min-width: 1280px)"
+              srcSet="/images/Home/Desktop/mobileImgDesktop.webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcSet="/images/Home/Tablet/mobileImgTablet.webp"
+            />
+
+            <img
+              src="/images/Home/Mobile/mobileImgMobile.webp"
+              alt="Phone view"
+              className="w-full h-auto"
+            />
+          </picture>
+        </div>
       </section>
     </>
   );

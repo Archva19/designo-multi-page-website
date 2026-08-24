@@ -7,7 +7,7 @@ import SocialMedia from "./SocialMedia";
 export default function Footer() {
   return (
     <>
-      <footer className="w-full bg-[#1D1C1E] pt-63.25 pb-16 md:pt-41.5 md:pb-20 relative">
+      <footer className="w-full bg-[#1D1C1E] pt-63.25 pb-16 md:pt-41.5 md:pb-20 xl:mt-36 xl:pb-18 relative">
         <div className="w-[87.2%] mx-auto flex flex-col gap-10 md:w-[89.713%] xl:w-[77.222%]">
           <div className = "w-full flex flex-col gap-8 items-center md:flex-row md:justify-between md:pb-10 md:border-b md:border-white/10">
             <Brand color={"white"} />
