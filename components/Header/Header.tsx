@@ -28,7 +28,7 @@ export default function Header() {
   return (
     <>
       <header className="w-full sticky top-0 py-8.75 z-100 bg-white md:py-16">
-        <div className="w-[87.2%] mx-auto flex items-center justify-between md:w-[89.713%] xl:w-[77.222%]">
+        <div className="w-[87.2%] h-6.75 mx-auto flex items-center justify-between md:w-[89.713%] xl:w-[77.222%]">
           <Brand color="#333136" />
           <div>
             <div className="md:hidden">

@@ -6,7 +6,7 @@ export default function FooterBanner() {
           <p className="mb-1.5 font-medium text-[32px] leading-9 h-20.5 md:text-[40px] md:leading-10 md:w-83.75 md:h-24.5 md:mb-0">
             Let’s talk about your project
           </p>
-          <p className="mb-8 text-[15px] leading-6.25 md:w-110 md:leading-6.5 md:text-[16px] xl:w-114.75">
+          <p className="mb-8 text-[15px] leading-6.25 md:w-110 md:leading-6.5 md:text-[16px] xl:w-114.75 xl:mb-0">
             Ready to take it to the next level? Contact us today and find out
             how our expertise can help your business grow.
           </p>
