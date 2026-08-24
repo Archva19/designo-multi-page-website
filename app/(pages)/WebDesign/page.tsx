@@ -40,6 +40,7 @@ export default function page() {
       img: "/images/WebDesign/camp.webp",
     },
   ];
+
   return (
     <>
       <main className="w-full">
