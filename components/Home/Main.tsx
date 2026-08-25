@@ -1,5 +1,5 @@
-import DesktopDeco from "../Models/Decorations/DesktopDeco";
 import Banner from "./Banner";
+import DesktopDecoMain from "./DesktopDecoMain";
 import Projects from "./Projects";
 import Qualities from "./Qualities";
 
@@ -12,7 +12,7 @@ export default function Main() {
           <Projects />
           <Qualities />
         </div>
-        <DesktopDeco />
+        <DesktopDecoMain/>
       </main>
     </>
   );
