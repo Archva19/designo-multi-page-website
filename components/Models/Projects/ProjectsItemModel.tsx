@@ -6,7 +6,7 @@ export default function ProjectsItemModel({ project }: { project: Project }) {
   return (
     <>
       <div
-        className={`group relative rounded-[15px] w-full bg-(image:--bg-mobile) md:bg-(image:--bg-tablet) xl:bg-(image:--bg-desktop) bg-cover bg-no-repeat bg-center xl:max-w-135.25 xl:flex-1 ${project.divType === 1 && "max-h-77"}`}
+        className={`group relative rounded-[15px] w-full bg-(image:--bg-mobile) md:bg-(image:--bg-tablet) xl:bg-(image:--bg-desktop) bg-cover bg-no-repeat bg-center xl:flex-1 ${project.divType === 1 && "max-h-77"}`}
         style={
           {
             "--bg-mobile": `url(${project.bgImageMobile})`,
@@ -17,7 +17,7 @@ export default function ProjectsItemModel({ project }: { project: Project }) {
       >
         <div className="bg-[#000000]/50 absolute w-full h-full top-0 left-0 rounded-[15px] group-hover:bg-[#E7816B]/80"></div>
         <Link
-          className={`z-10 relative w-full py-22.5 flex flex-col gap-[11.97px] items-center justify-center text-white md:py-13.25 md:gap-6 ${project.divType === 1 ? "xl:py-26.75" : "xl:py-68.25"}`}
+          className={`z-10 relative w-full py-22.5 flex flex-col gap-[11.97px] items-center justify-center text-white md:py-13.25 md:gap-6 ${project.divType! === 1 ? "xl:py-26.75" : "xl:py-68.25"}`}
           href={`${project.route}`}
         >
           <p className="font-medium text-[28px] leading-9 tracking-[1.4px] md:text-[40px] md:leading-12 md:tracking-[2px]">
